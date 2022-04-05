@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="brasilicones.ico" type="image/x-icon">
+    <link rel="stylesheet" href="gerador.css">
+    <title>Gerador de Números</title>
+</head>
+
+<body>
+    <header>
+        <h1>Números pseudos aleatórios</h1>
+    </header>
+    <section>
+        <div class="cabeçalho">
+            <div>
+                <p> Vamos jogar? </p>
+
+                Adivinha um numero de 1 a 5 : <input type="number" id="j1">
+                <input type="button" value="começar" onclick="gerar()">
+            </div>
+            <div>
+                <p id="res" class="resposta"> sera que você acertou ? </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Lucas Balbino </p>
+    </footer>
+
+</body>
+<script src="aleatorio.js"></script>
+
+</html>
