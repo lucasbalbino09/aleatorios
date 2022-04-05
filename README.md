@@ -1,1 +1,2 @@
 # Gera-pseudo-aleat
+# aleatorios
